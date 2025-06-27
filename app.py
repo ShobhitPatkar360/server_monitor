@@ -8,7 +8,7 @@ import requests
 collection = db["mycollection"]
 
 PAGERDUTY_ROUTING_KEY = "92f7e6e28674460ec0d4e29150623100"
-API_TO_CHECK = "http://12.12.12.12;80"  
+API_TO_CHECK = "https://www.google.com"  
 
 print(f"Fetching api1 data from the database...")
 raw_data = collection.find_one({"api_name": "server_health"})
